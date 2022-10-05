@@ -1,0 +1,52 @@
+:root{
+/* colore */
+    --a-color:#C2B9A8;
+    --text-color:#8A8273;
+    --btn-color:#74AE93;
+/* backgound colore */
+   --bg-color:#32322f;
+/* Web Font  */
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",
+    -apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+span,
+ul,
+ol,li{
+   margin: 0;
+   padding: 0;
+   font-family: var(--font-mono);
+}
+li{
+    list-style-type: none;
+    display: flex;
+}
+a,a:hover{
+   text-decoration: none;
+   color: var(--a-color) !important;
+   font-family: var(--font-mono);
+
+}
+body{
+   font-family: var(--font-sans);
+   background-color: var(--bg-color) !important;
+}
+.sidePadding{
+   padding: 0 50px;
+   justify-content: space-between;
+}
+#button{
+   padding: 6.5px 12.5px;
+   border-radius: 0.4rem;
+   border: 1px solid var(--btn-color);
+   color: var(--btn-color);
+   margin-left: 1.8rem;
+}
+#button:hover{
+   background-color: #547a68;
+}
+.nav-item:hover a{
+   color: var(--btn-color) !important;
+}
