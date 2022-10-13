@@ -1,3 +1,48 @@
 /* ====================nav bar css section start ====================*/
+/* tablat site resposive menu section */
 
+@media(max-width:820px){
+    .navbar-toggler {
+        z-index: 11111;
+    }
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0.menu {
+        align-items: center;
+        position: relative;
+        top: 40%;
+    }
+    #navbarSupportedContent{
+        background-color: #112240 !important;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 50%;
+    }
+    li.nav-item {
+        font-size: 18px !important;
+        color: #ccd6f5;
+        padding: 3px 20px 20px;
+    }
+    .nav-item{
+        position: relative;
+    }
+    .nav-item span{
+        position: absolute;
+        margin-bottom: 3rem;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .nav-item span {
+        position: absolute;
+        left: 0;
+        right: auto;
+    }
+    .nav-item span {
+        padding-bottom: 3rem;
+        left: 0;
+    } 
+}
+   
 /* ====================nav bar css section end ====================*/

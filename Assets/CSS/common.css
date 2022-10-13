@@ -50,3 +50,23 @@ body{
 .nav-item:hover a{
    color: var(--btn-color) !important;
 }
+
+/* headline css  strat*/
+.headline{
+   display: flex;
+   align-items: center;
+}
+.headline span{
+   font-size: 32px;
+   color: var(--btn-color);
+}
+.headline h2{
+   font-size: 32px;
+}
+hr{
+   width: 20rem;
+   height: 10px;
+   background: var(--text-color);
+}
+
+/* headline css  end*/
