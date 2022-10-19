@@ -1,3 +1,4 @@
+
 /* ==================================nav bar/menu bar code start================================== */
 /* ===============logo secrion start============= */
 .logo{
@@ -149,41 +150,42 @@
    left: 0.6rem;
    position: absolute;
 }
+/* ==================================Social icon section css code start================================== */
 
+/* ==================================about section code start================================== */
+.skill .skills-iteam-one li{
+   padding-left: 1rem;
+}
 
+.skill .skills-iteam-two li{
+   padding-left: 5rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.gmail ul li a{
-   position: absolute;
-   bottom: -1.2rem;
-   right: 2.9rem;
-   transform: rotate(90deg);
+.my_image{
+   height: 300px;
+   width: 300px;
+   margin-top: 4rem;
+   position: relative;
 
 }
-.before::before{
+.my_image::before{
    content: '';
-   display: block;
-   width: 1px;
-   height: 90px;
-   margin: 0px auto;
-   background:var(--text-color);
-   right: 3.5rem;
    position: absolute;
+   border: 2px solid var(--btn-color);
+   height: 100%;
+   width: 100%;
+   left: 3rem;
+   top: 3rem;
+   z-index: -1;
+   border-radius: 3%;
+
+}
+
+
+
+.my_image img{
+   height: 100%;
+   
 }
 
 

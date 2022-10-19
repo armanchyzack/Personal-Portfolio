@@ -17,7 +17,13 @@ ul,
 ol,li{
    margin: 0;
    padding: 0;
-   font-family: var(--font-mono);
+   font-family: var(--font-mono) !important;
+}
+ul,ol,li{
+   color: var(--text-color);
+}
+p{
+   color: var(--text-color);
 }
 li{
     list-style-type: none;
