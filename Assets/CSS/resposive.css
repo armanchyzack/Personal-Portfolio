@@ -16,7 +16,8 @@
         position: absolute;
         top: 0;
         right: 0;
-        left: 50%;
+        width: 400px;
+        transition: 0.5s ease;
     }
     li.nav-item {
         font-size: 18px !important;
@@ -31,8 +32,6 @@
         margin-bottom: 3rem;
         align-items: center;
         justify-content: center;
-
-
     }
     .nav-item span {
         position: absolute;
@@ -43,6 +42,7 @@
         padding-bottom: 3rem;
         left: 0;
     } 
+ 
 }
    
 /* ====================nav bar css section end ====================*/

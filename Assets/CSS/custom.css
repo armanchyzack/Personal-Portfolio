@@ -20,11 +20,14 @@
     margin-left: 1.8rem;
  }
  .navbar-toggler{
-    background-color: inherit; 
+   background-color: inherit; 
    border: none;
    padding: 10px 6px;
-    outline: none;
+   outline: none;
  }
+.show{
+   transition: all linear 2ms;
+}
  .navbar-toggler span{
     display: block;
     width: 22px;
@@ -45,6 +48,8 @@
 #navbarSupportedContent ul li {
    font-size: 0.9rem;
 }
+
+
  /* ------------resposive side menu colose and show button------------ */
    .containerr {
       display: inline-block;
